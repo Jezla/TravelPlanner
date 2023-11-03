@@ -1,45 +1,43 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
-
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
-
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
-
----
-
-## Edit a file
-
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
-
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
-
----
-
-## Create a file
-
-Next, you’ll add a new file to this repository.
-
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+1 Introduction
+● 1.1 Background and contextual information related to this project
+o 1.1.1 Participants team is expected to provide an application for iPhone users
+to plan and record trips.
+o 1.1.2 The client is School of Computer Science, and Zichen Li is responsible
+for connecting with the development team. There are 7 people in the
+development team, and the main software development skills are Xcode, git,
+swift, etc.
+● 1.2 The project purpose
+o 1.2.1 project vision
+▪ The final vision of the project is expected to be realized including: main
+menu, editing interface and user interface. Features include searching,
+deleting, saving and editing diaries, and an optimized user interface.
+o 1.2.2 goals
+▪ The goal of this project is to provide users with an application that can
+record travel diaries. The recorded data includes origin, destination,
+date, diary content and cost details, etc. Users can save or delete
+diary content. After saving, you can search the diary and change the
+content of the diary.
+o 1.2.3 objectives
+▪ So the implementation with code is that we want to implement the
+following functions:
+▪ The home page lists all journal content and renders it in a lazy-loaded
+way
+▪ The home page lists all journal content and renders it in a lazy-loaded
+way
+▪ Swipe left on the tab to delete the entire journal content
+▪ There is a search bar at the top of the home page to search for diaries
+related to the destination and origin
+▪ Click the tab to open the corresponding compilation page and return to
+the main page
+▪ Edit pages require all input boxes for corresponding data
+● 1.3 What and how the project aimed to achieve:
+o 1.3.1 short-term deliverables (matching objectives)
+▪ The short-term interactive result is to apply the split function, which
+has been introduced above.
+▪ And in multiple meetings and reports, we also want to give customers
+feedback on our short-term interaction progress.
+o 1.3.2 long-time expectations (matching goals and vision)
+▪ The long-term vision is that the application can provide a concise UI,
+and users can easily write and save their own travel diaries. When you
+want to change, delete and search your own journal, the application
+can complete these tasks efficiently and conveniently.
